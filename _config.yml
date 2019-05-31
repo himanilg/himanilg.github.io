@@ -1,0 +1,81 @@
+title: Rainbow Arts Classes
+name: Rainbow Arts Classes
+email: test@example.com
+description: Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+
+display_footer: inital  #change this to 'none' if you want to hide the footer copyright text
+
+theme: jekyll-material-theme
+
+parallax_image_one: assets/images/header2.jpg # These are the images used for the parallax background
+parallax_image_two: assets/images/startup3.jpg
+parallax_image_three: assets/images/startup.jpg
+parallax_image_four: assets/images/startup2.jpg
+
+# Settings for the porfolio section
+
+portfolio_heading: Workshops & Events
+portfolio_type: cards #cards or carousel
+
+project_one: "Kalp Asia Group Exhibition"
+project_one_description: A group exhibition at Pritam Lal Dua Art Gallery, Indore district by Kalp Asia Art Group where Mr. Shaligram Gupta and Mr Om Prakash Gupta exhibited their Artworks.
+project_one_url: https://tinyurl.com/y6qu923t
+project_one_icon: location_on # these are from materiailize css, the full collection is here: http://materializecss.com/icons.html
+
+project_two: In-House Art Exhibition
+project_two_description: A In-House exhibition conducted by Rainbow Art Classes and showcase Artworks of our students of all age group.
+project_two_url: https://tinyurl.com/y62j62hl
+project_two_icon: photo_camera
+
+
+project_three: Summer Workshop 1 
+project_three_description: A One day Mega Painting Camp organized by Rainbow Arts Team at nearby areas. Where many kids shown their active pariticipation to win wonderful prizes.
+project_three_url: https://www.facebook.com/986116634873779/posts/998756493609793/?app=fbl
+project_three_icon: hotel
+
+
+project_four: Summer Workshop 2
+project_four_description: A Two day Mega Painting Camp organized by Rainbow Arts Team at nearby areas. Where many kids shown their active pariticipation to win wonderful prizes.
+project_four_url: https://www.facebook.com/986116634873779/posts/994658427352933/?app=fbl
+project_four_icon: restaurant
+
+# Skill icons from https://konpa.github.io/devicon/
+
+skills:
+  - name: Kids Class
+    uri: assets/images/kids-1-300x216.png
+  - name: Primitive Drawing
+    uri: assets/images/FINE-1-300x216.png
+  - name: Advance Class
+    uri: assets/images/FINE-1-300x216.png
+  - name: Professional and Creative Class
+    uri: assets/images/sketch-1-300x216.png
+
+    #uri: https://upload.wikimedia.org/wikipedia/fr/thumb/4/4b/Ansible_logo.png/220px-Ansible_logo.png # Add external icon, for internal icon use uri: /assets/my_icon.jpg
+
+icon_size: 125 # font-size of icons in px
+colored: colored # Leave blank for black and white icons
+
+project_button: facebook
+
+# github: https://github.com/jameshamann/jekyll-material-theme
+facebook: https://www.facebook.com/rainbowartsclasses/
+
+baseurl: # If your site is located at /blog or /home, change it here, otherwise leave it empty
+url: https://himanilg.github.io # The URL of your site
+
+# Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
+tag_manager_id: # This looks something like GTM-XXXXXXX
+google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
+
+cookie_accept_message: Thanks! # The pop-up dialog that appears after accepting the cookie notice.
+
+syntax_highlighting: true # include the css for syntax highlighting
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-assets
+  - jekyll-minifier

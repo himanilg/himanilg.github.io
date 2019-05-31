@@ -1,0 +1,21 @@
+<div class="row">
+  {% for post in site.posts %}
+
+  <div class="col s12 m6">
+    <div class="card">
+      <div class="card-image">
+        <!-- <img src="{{post.image}}"> -->
+        <span class="card-title"><a style="color:white">{{ post.title | escape }}</a></span>
+        <!-- <a id="{{post.url}}" class="btn-floating halfway-fab waves-effect waves-light red" href="{{ post.url | relative_url }}"><i class="material-icons">more_horiz</i></a> -->
+      </div>
+      <div class="card-content">
+        <!-- <p>{{post.excerpt}}</p> -->
+
+        <p><a href="https://www.facebook.com/986116634873779/posts/1211946362290804/?app=fbl" target="_blank"><img src="../assets/images/icons/fb.ico"></a></p>
+        <p>Wonderful art pieces by your students. My best wishes to you and the budding artists </p>
+        <p>-- Anil Grover</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
